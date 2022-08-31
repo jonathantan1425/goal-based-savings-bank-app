@@ -1,0 +1,51 @@
+name: app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg:
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: GoldmanSans
+      fonts:
+        - asset: assets/fonts/goldman_sans/GoldmanSans_Rg.ttf
+          weight: 400
+        - asset: assets/fonts/goldman_sans/GoldmanSans_Bd.ttf
+          weight: 700
+        - asset: assets/fonts/goldman_sans/GoldmanSans_BdIt.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/goldman_sans/GoldmanSans_Blk.ttf
+          weight: 900
+        - asset: assets/fonts/goldman_sans/GoldmanSans_It.ttf
+          style: italic
+        - asset: assets/fonts/goldman_sans/GoldmanSans_Lt.ttf
+          weight: 300
+        - asset: assets/fonts/goldman_sans/GoldmanSans_Md.ttf
+          weight: 500
+        - asset: assets/fonts/goldman_sans/GoldmanSans_Md.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/goldman_sans/GoldmanSans_Th.ttf
+          weight: 100
